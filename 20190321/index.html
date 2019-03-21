@@ -6,11 +6,30 @@
 </head>
 <body>
 	<!-- img[src='img/main01_0$.jpg'][alt='img$']*6 -->
-	<img src="img/man01_01.jpg" alt="img1">
+	<!-- <img src="img/man01_01.jpg" alt="img1">
 	<img src="img/man01_02.jpg" alt="img2">
 	<img src="img/man01_03.jpg" alt="img3">
 	<img src="img/man01_04.jpg" alt="img4">
 	<img src="img/man01_05.jpg" alt="img5">
-	<img src="img/man01_06.jpg" alt="img6">
+	<img src="img/man01_06.jpg" alt="img6"> -->
+	<form action="update.php">
+		<input type="text" name="name"><br>
+		<input type="password" name="pwd"><br>
+		<input type="file" name="file_name"><br>
+		<input type="radio" name="man" value="m">남성
+		<input type="radio" name="man" value="w">여성<br>
+
+		<input type="checkbox" name="hobby" value="swim">수영
+		<input type="checkbox" name="hobby1" value="baseball">야구<br>
+
+		<select name="food" id="">
+			<option value="apple">사과</option>
+			<option value="banner">바나나</option>
+			<option value="pear">배</option>
+		</select><br>
+
+		<input type="submit">
+		<input type="reset">
+	</form>
 </body>
 </html>

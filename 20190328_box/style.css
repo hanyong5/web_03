@@ -19,6 +19,7 @@ header#header_wrap{
 		display:inline-block;
 		background-color:#0f0;
 		width:680px;height: 130px;
+		margin-left:-6px;
 	}
 
 /*content*/

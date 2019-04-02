@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>menu</title>
+	<style>
+		/*reset*/
+		*{margin: 0;padding: 0;}
+		li{list-style:none;}
+		a:link,a:visited{
+			color:#000;text-decoration:none;
+		}
+		
+		/*body{background-image:url(../images/bg_grid.gif);}*/
+		/*menu layout*/
+		ul.nav{
+			width: 1000px;margin:0 auto;
+			background-color:white;
+		}
+		ul.nav:after{content:"";clear: both;display: block;}
+		ul.nav > li{
+			float:left;
+			border-right:1px solid gray;
+		}
+		ul.nav > li > a{
+			display:block;width:198px;
+			text-align:center;line-height:50px
+		}
+		ul.nav > li:first-child{border-left:1px solid gray;}
+
+		/*ul.nav > li:hover{
+			background-color:darkblue;
+			font-weight:bold;
+		}
+		ul.nav > li:hover a{color:white;}*/
+
+		ul.nav a:hover{background-color:darkblue;font-weight:bold;color:white;}
+
+
+	</style>
+</head>
+<body>
+	<!-- ul.nav>li*5>a[href="#"]>{menu$} -->
+	<ul class="nav">
+		<li><a href="#">menu1</a></li>
+		<li><a href="#">menu2</a></li>
+		<li><a href="#">menu3</a></li>
+		<li><a href="#">menu4</a></li>
+		<li><a href="#">menu5</a></li>
+	</ul>
+</body>
+</html>

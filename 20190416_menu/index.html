@@ -9,7 +9,7 @@
 		a:link,a:visited{text-decoration:none;color:black;}
 		.clearfix:after{content:"";clear: both;display: block;}
 
-		div.menu_wrap{}
+
 		div.menu_wrap>ul{width: 1000px;margin:0 auto;height: 40px;}
 		div.menu_wrap>ul>li{float: left;background:green;}
 		div.menu_wrap>ul>li>a{display: block;line-height:40px;
@@ -17,7 +17,7 @@
 		}
 		div.menu_wrap>ul>li:hover{background:orange;}
 		div.menu_wrap>ul>li:hover>a{color:white;}
-		div.menu_wrap>ul:hover .sub{display: block;}
+		div.menu_wrap>ul>li:hover .sub{display: block;}
 
 		.sub{display: none;}
 		.sub>li{width:100%;}
@@ -29,7 +29,6 @@
 		/*section*/
 
 		section.content{width: 1000px;margin:20px auto;}
-		section.content>ul{}
 		section.content>ul>li{float: left;width: 240px;margin-right:13.33px;}
 		section.content>ul>li:last-child{margin-right:0;}
 		section.content>ul>li img{display: block;width:100%;}
@@ -38,7 +37,6 @@
 		/*section*/
 		.content_2st_wrap{background:skyblue;padding:20px;}
 		section.content_2st{width: 1000px;margin:0 auto;}
-		section.content_2st>ul{}
 		section.content_2st>ul>li{float: left;width: 240px;margin-right:13.33px;}
 		section.content_2st>ul>li:last-child{margin-right:0;}
 
@@ -47,6 +45,15 @@
 		section.content_2st .card_text{padding-top:15px;}
 		section.content_2st .card_text h4,
 		section.content_2st .card_text p{text-align:center;}
+
+
+		/*section*/
+
+		section.content_3st{width: 1000px;margin:20px auto;}
+		section.content_3st>ul>li{float: left;width: 240px;margin-right:13.33px;}
+		section.content_3st>ul>li:last-child{margin-right:0;}
+		section.content_3st>ul>li img{display: block;width:100%;}
+		section.content_3st>ul>li .card_text{padding:15px;background: #cdcdcd;}
 	</style>
 </head>
 <body>
@@ -176,6 +183,46 @@
 			</ul>
 		</section>
 	</div>
+	<section class="content_3st">
+		<ul class="clearfix">
+			<li>
+				<div class="card">
+					<img src="../images/testimg.jpg" alt="">
+					<div class="card_text">
+						<h4>Mr.han</h4>
+						<p>Architect & Enginner</p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="card">
+					<img src="../images/testimg.jpg" alt="">
+					<div class="card_text">
+						<h4>Mr.han</h4>
+						<p>Architect & Enginner</p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="card">
+					<img src="../images/testimg.jpg" alt="">
+					<div class="card_text">
+						<h4>Mr.han</h4>
+						<p>Architect & Enginner</p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="card">
+					<img src="../images/testimg.jpg" alt="">
+					<div class="card_text">
+						<h4>Mr.han</h4>
+						<p>Architect & Enginner</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</section>
 	
 </body>
 </html>

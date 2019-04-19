@@ -1,0 +1,70 @@
+@charset "utf-8";
+/*header*/
+#main_gnb_wrap{width: 100%;height:30px;border-bottom:1px solid #ddd;}
+#main_gnb{width:980px;margin:0 auto;}
+
+/*main_gnb*/
+#gnb{float: right;}
+#gnb>ul>li{float: left;border-left:1px solid #000 ;}
+#gnb>ul>li:first-child{border-left:none;}
+#gnb>ul>li>a{display: block;line-height:20px;padding:0 10px;}
+
+/*log_wrap*/
+#logo_wrap{width: 980px;height: 60px;margin:0 auto;position: relative;padding-top:5px;}
+#logo_wrap>h1{width:250px;margin:0 auto;
+	text-align:center;}
+#logo_wrap>div.toggle{position: absolute;top:5px;right:0;}
+
+/*main_lnb_wrap*/
+#main_lnb_wrap{background: #1c5da3;}
+#main_lnb{width: 980px;margin:0 auto;}
+#lnb>ul{width: 100%;}
+#lnb>ul>li{float: left;width:16.66%;
+	border-right:1px solid #336eac;}
+#lnb>ul>li:first-child{border-left:1px solid #336eac;}	
+#lnb>ul>li>a{display: block;line-height:40px;
+	text-align:center;color:white;font-weight:bold;}
+#lnb a:hover{background:skyblue;color:#1c5da3;}
+
+/*visual wrap*/
+#visual_wrap{
+	height: 400px;
+	background:#203969 url(../images/visual_bg.jpg) no-repeat center;
+}
+div.visual{
+	width: 980px;
+	height:400px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+}
+div.visual img{position:absolute;}
+div.visual .img01{right:0;bottom:-100px;}
+div.visual .img02{left:0;top:70px;}
+
+.test{height: 200px;background: #f00;}
+
+
+/*section main_banner*/
+section.main_banner{background:#eeeeee;}
+section.main_banner .banner{width: 980px;margin: 0 auto}
+div.banner>ul{width:100%;}
+div.banner>ul>li{float: left;width: 20%;height: 200px;
+			text-align:center;color:white;cursor:pointer;}
+div.banner>ul>li:nth-child(1){background-color:#7c99b9;}
+div.banner>ul>li:nth-child(2){background-color:#4f74a1;}
+div.banner>ul>li:nth-child(3){background-color:#4b8ce0;}
+div.banner>ul>li:nth-child(4){background-color:#3db5f2;}
+div.banner>ul>li:nth-child(5){background-color:#95c8ff;}
+
+div.banner>ul>li:nth-child(1):hover,
+div.banner>ul>li:nth-child(2):hover,
+div.banner>ul>li:nth-child(3):hover,
+div.banner>ul>li:nth-child(4):hover,
+div.banner>ul>li:nth-child(5):hover{background-color:#336eac;}
+
+div.banner>ul>li .card{width:100%;padding:15px;}
+div.banner>ul>li img{display: block;margin:0 auto;}
+div.banner>ul>li .card-body{padding-top:10px;}
+div.banner>ul>li .card-title{margin-bottom:5px;}
+div.banner>ul>li .card-text{}

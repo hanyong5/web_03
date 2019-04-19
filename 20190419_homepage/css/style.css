@@ -46,7 +46,7 @@ div.visual .img02{left:0;top:70px;}
 
 
 /*section main_banner*/
-section.main_banner{background:#eeeeee;}
+section.main_banner{background:#eeeeee;margin-bottom:20px;}
 section.main_banner .banner{width: 980px;margin: 0 auto}
 div.banner>ul{width:100%;}
 div.banner>ul>li{float: left;width: 20%;height: 200px;
@@ -68,3 +68,25 @@ div.banner>ul>li img{display: block;margin:0 auto;}
 div.banner>ul>li .card-body{padding-top:10px;}
 div.banner>ul>li .card-title{margin-bottom:5px;}
 div.banner>ul>li .card-text{}
+
+section.main_article{width: 980px;margin: 0 auto;margin-bottom:20px}
+section.main_article>ul{}
+section.main_article>ul>li{float: left;width: 310px;margin-right: 25px;}
+section.main_article>ul>li:last-child{margin-right:0;}
+section.main_article>ul>li img{display: block;}
+.main_article .card-body{border: 1px solid #ddd;padding:15px;border-top:0;}
+.main_article .card-title{margin-bottom:5px;}
+
+
+section.bottom_article{width: 980px;margin: 20px auto;}
+section.bottom_article>ul{}
+section.bottom_article>ul>li{float: left;width: 310px;margin-right: 25px;
+	position: relative;border: 1px solid #ddd;padding:15px;
+	height:180px;
+	overflow: hidden;}
+section.bottom_article>ul>li:last-child{margin-right:0;}
+section.bottom_article>ul>li img{position: absolute;right:-25px;}
+section.bottom_article .card-body{width:130px;padding-top:5px;padding-left:10px;}
+section.bottom_article .card-title{margin-bottom:15px;}
+section.bottom_article .card-text{margin-bottom:10px;}
+section.bottom_article .card-link{color:blue;font-size:14px;font-weight:bold;}

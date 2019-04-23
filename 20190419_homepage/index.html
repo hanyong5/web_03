@@ -4,8 +4,19 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta charset="UTF-8">
 	<title>하이미디어</title>
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.bxslider.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".slider").bxSlider({auto:true});
+			$(".slider1").bxSlider({auto:true,mode:'vertical'});
+		});
+
+		
+	</script>
 </head>
 <body>
 	<header id="main_header">
@@ -43,10 +54,28 @@
 		</div>
 	</header>
 
-	<div id="visual_wrap">
-		<div class="visual"><!-- position:relative -->
-			<img src="./images/visual_img01.png" alt="bulb" class="img01"><!-- position:absolute -->
+	<!-- <div id="visual_wrap">
+		<div class="visual">
+			<img src="./images/visual_img01.png" alt="bulb" class="img01">
 			<img src="./images/visual_img02.png" alt="next energy" class="img02">
+		</div>
+	</div> -->
+	<div id="visual_wrap">
+		<div class="visual">
+			<ul class="slider">
+				<li><img src="./images/pc01.jpg" alt=""></li>
+				<li><img src="./images/pc02.jpg" alt=""></li>
+				<li><img src="./images/pc03.jpg" alt=""></li>
+			</ul>
+		</div>
+	</div>
+	<div id="visual_wrap">
+		<div class="visual">
+			<ul class="slider1">
+				<li><img src="./images/pc01.jpg" alt=""></li>
+				<li><img src="./images/pc02.jpg" alt=""></li>
+				<li><img src="./images/pc03.jpg" alt=""></li>
+			</ul>
 		</div>
 	</div>
 	<section class="main_banner">
@@ -169,23 +198,22 @@
 		</ul>
 	</section>
 	<footer id="main_footer">
-			<div id='footer_wrap'>
-				<div id="footer_nav">
-					<div id="footer_menu">
-						<ul class='clearfix'>
-							<li><a href="#">개인정보 취급방침</a></li>
-							<li><a href="#">이메일주소 무단 수집 거부</a></li>
-							<li><a href="#">패밀리 사이트</a></li>
-						</ul>
-						<div id="top_button">
+			<div id="footer_nav">
+				<div class="footer_menu">
+					<ul class='clearfix'>
+						<li><a href="#">개인정보 취급방침</a></li>
+						<li><a href="#">이메일주소 무단 수집 거부</a></li>
+						<li><a href="#">패밀리 사이트</a></li>
+					</ul>
+					<div class="top_button">
 						<svg width='8px' height='8px'>
 							<path class='triangle' d="M0,8 L4,4 L8,8 Z" />
 						</svg>
 						<p>TOP</p>
-						</div>
 					</div>
 				</div>
 			</div>
+			
 			<div id="footer_wrap">
 				<div id="footer_address" class="clearfix">
 					<div id="footer_logo"><p>하이미디어<p></div>

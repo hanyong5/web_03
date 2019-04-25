@@ -12,6 +12,11 @@
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/jquery.bxslider.js"></script>
 	<script src="js/jquery.colorbox.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".slider").bxSlider();
+		});
+	</script>
 
 </head>
 <body>
@@ -31,8 +36,19 @@
 		</div>
 		<div class="slider_wrap">
 			<ul class="slider">
-				<li><img src="img/mainimg01.jpg" alt="img"></li>
-				<li><img src="img/mainimg02.jpg" alt="img"></li>
+				<li class="img1st">
+					<div class="txt_wrap">
+						<p class="txt_title">Lorem ipsum dolor.</p>
+						<p class="text_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minus rerum voluptas a modi officia, praesentium iusto ratione atque perferendis!</p>
+					</div>
+				</li>
+				<li class="img2st">
+					<div class="txt_wrap">
+						<p class="txt_title">Lorem ipsum dolor.</p>
+						<p class="text_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minus rerum voluptas a modi officia, praesentium iusto ratione atque perferendis!</p>
+					</div>
+				</li>
+				
 			</ul>
 		</div>
 	</header>

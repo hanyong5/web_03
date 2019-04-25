@@ -1,0 +1,11 @@
+@charset "utf-8";
+body{font-family: 'Roboto', sans-serif;}
+#header{height:1950;background-color:skyblue;position: relative;}
+#header .header_top{width: 1260px;position: absolute;top:30px;
+	height:50px;left:50%;margin-left:-630px;background:gray;}
+#header .header_top h1{float: left;line-height: 50px;color:white;}
+#header .header_top nav{float: right;}
+#header .header_top nav>ul{}
+#header .header_top nav>ul>li{float: left;}
+#header .header_top nav>ul>li>a{display: block;line-height: 30px;
+					padding:10px 20px;color:white;font-weight:bold;}
